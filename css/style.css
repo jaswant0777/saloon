@@ -1,0 +1,1929 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+body{
+      font-family: 'Roboto', sans-serif;
+}
+
+.ai-center{
+      align-items: center;
+}
+.ta-center{
+      text-align: center;
+}
+a{
+      text-decoration: none;
+}
+li{
+      list-style: none;
+}
+.d-flex{
+      display: flex;
+}
+.jc-end{
+      justify-content: right;
+}
+.jc-sb{
+      justify-content: space-between;
+}
+.jc-sa{
+      justify-content: space-around;
+}
+.btn{
+      display: none;
+}
+.jc.center{
+      justify-content: center;
+}
+.container{
+      width: 1140px;
+      margin: auto;
+}
+
+.header img{
+      width: 20%;
+}
+
+.li li a{
+      padding: 0px 20px;
+      color: black;
+}
+.button{
+      background-color: black;
+     padding: 15px 30px;
+     transition: 0.5s;
+}
+.button a{
+      color: #fff;
+}
+
+.button:hover{
+      background-color: brown;
+}
+
+.bg{
+      background-image: url(../images/hero_slider_01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 650px;
+}
+.center{
+      padding-top: 17%;
+}
+.center h1{
+      font-size: 100px;
+      color: #f7ca92;
+}
+.center p{
+      font-size: 40px;
+      color: #fff;
+}
+
+.clint img{
+      width: 24%; 
+}
+.clint{
+      margin: 20px 0px;
+}
+
+.about{
+      color: #fff;
+      margin: 60px 55px;
+     
+      
+}
+.mainabout{
+      background-color: black;
+      width: 130%
+}
+.inner2 img{
+      width: 110%;
+}
+
+.about h4{
+      padding: 20px 0px;
+      color: #797775;
+}
+.about h1{
+      letter-spacing: 6px;
+      font-size: 50px;
+}
+.about p{
+      line-height: 25px;
+      padding: 30px 0px;
+      margin-bottom: 20px;
+}
+.about a{
+      background-color: black;
+      padding: 15px 25px;
+      color: #fff;
+      border: 1px solid #fff;
+}
+
+.about a:hover{
+      background-color: #fff;
+      color: black;
+}
+
+.time{
+      margin-left: 180px;
+      padding: 150px 0px;
+}
+
+.OPENING p{
+      font-size: 20px;
+      letter-spacing: 5px;
+      padding: 20px 0px;
+
+}
+.OPENING{
+      margin-right: 110px;
+}
+.OPENING h1{
+      padding: 20px 0px;
+      font-size: 40px;
+      letter-spacing: 5px;
+      padding-bottom: 20px;
+}
+.OPENING a{
+      border: 1px solid #000;
+      font-size: 10px;
+      padding: 10px 25px;
+      background-color: #000;
+      color: #fff;
+      margin: 10px;
+}
+.OPENING a:hover{
+      background-color: rgba(0, 0, 0, 0.39);
+}
+
+.hour h3{
+      font-size: 20px;
+      letter-spacing: 5px;
+      padding: 20px 0px;
+}
+.OPENING{
+      position: relative;
+}
+.OPENING::after{
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background: #000;
+      top: 0;
+      right: -75px;
+}
+
+.bac{
+      background-image: url(../images/card_image_01.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+}
+.art{
+      transition: 0.5s;
+      height: 500px;
+      padding: 30px 0px;
+}
+.art:hover{
+      background-color: #000;
+      height: 500px;
+}
+.bac h1{
+      font-size: 100px;
+      color: #f7c483;
+}
+.bac h3{
+      padding: 20px 0px;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 5px;
+}
+.bac p{
+      color: #fff;
+      line-height: 30px;
+      padding-bottom: 50px;
+}
+.bac a{
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      color: #fff;
+}
+.bac a:hover{
+      background-color: #fff;
+      color: #000;
+}
+.bac2{
+      background-image: url(../images/card_image_02.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.art{
+      transition: 0.5s;
+      height: 500px;
+}
+.art:hover{
+      background-color: #000;
+      height: 500px;
+}
+.bac2 h1{
+      font-size: 100px;
+      color: #f7c483;
+}
+.bac2 h3{
+      padding: 20px 0px;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 5px;
+}
+.bac2 p{
+      color: #fff;
+      line-height: 30px;
+      padding-bottom: 50px;
+}
+.bac2 a{
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      color: #fff;
+}
+.bac2 a:hover{
+      background-color: #fff;
+      color: #000;
+}
+.bac3{
+      background-image: url(../images/card_image_03.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.art{
+      transition: 0.5s;
+      height: 500px;
+}
+.art:hover{
+      background-color: #000;
+      height: 500px;
+}
+.bac3 h1{
+      font-size: 100px;
+      color: #f7c483;
+}
+.bac3 h3{
+      padding: 20px 0px;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 5px;
+}
+.bac3 p{
+      color: #fff;
+      line-height: 30px;
+      padding-bottom: 50px;
+}
+.bac3 a{
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      color: #fff;
+}
+.bac3 a:hover{
+      background-color: #fff;
+      color: #000;
+}
+.bac4{
+      background-image: url(../images/card_image_04.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.art{
+      transition: 0.5s;
+      height: 500px;
+}
+.art:hover{
+      background-color: #000;
+      height: 500px;
+}
+.bac4 h1{
+      font-size: 100px;
+      color: #f7c483;
+}
+.bac4 h3{
+      padding: 20px 0px;
+      color: #fff;
+      font-size: 40px;
+      letter-spacing: 5px;
+}
+.bac4 p{
+      color: #fff;
+      line-height: 30px;
+      padding-bottom: 50px;
+}
+.bac4 a{
+      border: 1px solid #fff;
+      padding: 10px 20px;
+      color: #fff;
+}
+.bac4 a:hover{
+      background-color: #fff;
+      color: #000;
+}
+
+.ADVANCED{
+      margin-top: 50px;
+}
+
+
+.ADVANCED p{
+      color: #2c2b2a;
+      font-size: 35px;
+}
+.ADVANCED h1{
+      font-size: 50px;
+      padding: 15px 0px;
+}
+
+.couts{
+      color: #797775;
+      border-bottom: 1px solid #797775;
+}
+.couts2 h3{
+      padding: 0px 100px;
+}
+.couts2 h3:hover{
+      border-bottom: 1px solid black;
+      color: #000;
+}
+
+.KOSA h1::after{
+      content: '';
+      position: absolute;
+      width: 190px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA{
+      line-height: 40px;
+}
+.KOSA2 h1::after{
+      content: '';
+      position: absolute;
+      width: 318px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA2{
+      line-height: 40px;
+}
+
+.KOSA3 h1::after{
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA3{
+      line-height: 40px;
+}
+.KOSA4 h1::after{
+      content: '';
+      position: absolute;
+      width: 310px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA4{
+      line-height: 40px;
+}
+
+
+.KOSA5 h1::after{
+      content: '';
+      position: absolute;
+      width: 330px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA5{
+      line-height: 40px;
+}
+
+.KOSA6 h1::after{
+      content: '';
+      position: absolute;
+      width: 340px;
+      height: 1px;
+      background: #000;
+     margin-top: 28px;
+      
+}
+.KOSA6{
+      line-height: 40px;
+}
+.dolor p{
+      margin-left: 150px;
+      font-size: 20px;
+}
+.dolor2 p{
+      margin-left: 158px;
+      font-size: 20px;
+}
+.dolor3 p{
+      margin-left: 235px;
+      font-size: 20px;
+}
+.dolor4 p{
+      margin-left: 150px;
+      font-size: 20px;
+}
+.dolor5 p{
+      margin-left: 165px;
+      font-size: 20px;
+}
+.dolor6 p{
+      margin-left: 160px;
+      font-size: 20px;
+}
+
+.PREMIUM{
+      padding: 20px 0px;
+}
+
+.feesh{
+      margin-left: 200px;
+}
+
+.after{
+      margin: 50px 0px;
+}
+
+
+.pichli{
+      background-image: url(../images/background_01.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
+     
+     background-attachment: scroll;
+}
+
+.salon{
+      color: #fff;
+      padding: 150px 0px;
+}
+.salon2{
+      color: #fff;
+      padding: 55px 0px;
+}
+.salon p{
+      font-size: 20px;
+}
+.salon h1{
+      font-size: 73px;
+      padding: 30px 0px;
+      color: #f7c483;
+}
+.salon a{
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 8px 20px;
+      transition: 0.5s;
+}
+.salon a:hover{
+      background-color: #fff;
+      color: #000;
+}
+
+.salon2 i{
+      font-size: 50px;
+      padding-right: 15px;
+      color: #f7c483;
+}
+.salon2 h1{
+      padding: 20px 0px;
+}
+.salon2 p{
+      line-height: 30px;
+}
+
+.inner{
+      background-image: url(../images/inner_image_04.jpg);
+      background-repeat:  no-repeat;
+      background-size: cover;
+      height: 700px;
+
+}
+.loveto{
+      width: 100%;
+}
+.loveto h1{
+      padding-top: 90px;
+      color: #fff;
+      font-size: 90px;
+}
+.name{
+      width: 100%;
+}
+.cont{
+      margin-left: 140px;
+}
+.cont input{
+      border: none;
+      border-bottom: 1px solid #000;
+      padding: 20px 0px;
+}
+.cont a{
+      color: #fff;
+      border: 1px solid #000;
+      background-color: #000;
+      padding: 20px 40px;
+}
+
+.asend{
+      margin: 50px 0px;
+}
+
+.firstname p{
+      padding: 15px 0px;
+}
+
+.lastname{
+      padding-left: 70px;
+}
+
+.firstname2{
+      margin: 15px 0px;
+      border-bottom: 1px solid #000;
+      width: 77%;
+}
+
+.innergirl{
+      padding-top: 100px;
+}
+
+
+.black{
+      background-color: #000;
+}
+
+.footer{
+      color: #fff;
+      padding: 130px 0px;
+}
+
+.logofooter{
+      width: 100%;
+}
+
+.footerp{
+      width: 100%;
+}
+.footerp h2{
+      line-height: 40px;
+}
+.footerp input{
+      border: none;
+      border-bottom: 1px solid #fff;
+     margin: 20px 0px;
+     background-color: #000;
+     color: #fff;
+     width: 100%;
+}
+
+.start{
+      padding: 50px 0px;
+}
+.start p{
+      padding: 10px 0px;
+}
+.antim {
+      margin: 20px 0px;
+      padding-left: 120px;
+}
+
+.antim a{
+      color: #fff;
+}
+.antim p{
+      padding: 20px 0px;
+}
+
+.fb{
+      border: 1px solid #fff;
+      border-radius: 100%;
+      padding: 18px 20px;
+      width: 25%;
+      margin: 10px 10px;
+}
+.fb:hover{
+      background-color: #fff;
+      color: #000;
+}
+
+
+@media (max-width: 1024px){
+      .container{
+            width: 90%;
+      }
+      .footerp input {
+            width: 79%;
+        }
+        element.style {
+            display: block;
+        }
+        .time {
+            margin-left: 90px;
+        }
+        .couts2 h3 {
+            padding: 0px 78px;
+        }
+        .feesh {
+            margin-left: 0px;
+        }
+        .about {
+            margin: 0px 55px;
+        }
+        .about h1 {
+            font-size: 35px;
+        }
+        .bac h3 {
+            font-size: 38px;
+        }
+        .bac2 h3 {
+            font-size: 38px;
+        }
+        .bac3 h3 {
+            font-size: 38px;
+        }
+        .bac4 h3 {
+            font-size: 38px;
+        }
+        .salon h1 {
+            font-size: 60px;
+        }
+        .loveto h1 {
+            padding-top: 214px;
+            font-size: 63px;
+        }
+        .cont {
+            margin-left: 60px;
+        }
+}
+
+
+
+@media (max-width: 768px){
+      .couts2 h3 {
+            padding: 0px 52px;
+        }
+        .after{
+            flex-wrap: wrap;
+            margin-left: 55px;
+        }
+        .KOSA h1::after {
+            width: 324px;
+        }
+        .dolor p {
+            margin-left: 280px;
+        }
+        .KOSA2 h1::after {
+            width: 459px;
+        }
+        .dolor2 p {
+            margin-left: 290px;
+        }
+        .KOSA3 h1::after {
+            width: 439px;
+        }
+        .dolor3 p {
+            margin-left: 366px;
+        }
+        .KOSA4 h1::after {
+            width: 487px;
+        }
+        .dolor4 p {
+            margin-left: 324px;
+        }
+        .KOSA5 h1::after {
+            width: 504px;
+        }
+        .dolor5 p {
+            margin-left: 338px;
+        }
+        .KOSA6 h1::after {
+            width: 503px;
+        }
+        .dolor6 p {
+            margin-left: 331px;
+        }
+
+        .pichli2{
+            flex-wrap: wrap;
+        }
+        .salon {
+            padding: 50px 0px;
+        }
+        .salon2 {
+            padding: 0px 0px;
+        }
+        .innergirl{
+            flex-wrap: wrap;
+        }
+        .cont {
+            margin-left: 127px;
+        }
+        .about h1 {
+            font-size: 17px;
+        }
+        .about p {
+            line-height: 20px;
+        }
+        .time {
+            margin-left: 50px;
+        }
+}
+
+@media (max-width: 600px){
+      .couts2 h3 {
+            padding: 0px 27px;
+        }
+        .after {
+            margin-left: 40px;
+        }
+        .KOSA {
+            line-height: 35px;
+        }
+        .KOSA h1::after {
+            width: 175px;
+        }
+        .dolor p {
+            margin-left: 150px;
+        }
+        .KOSA2 h1::after {
+            width: 318px;
+        }
+        .dolor2 p {
+            margin-left: 158px;
+        }
+        .KOSA3 h1::after {
+            width: 303px;
+        }
+        .dolor3 p {
+            margin-left: 235px;
+        }
+        .KOSA4 h1::after {
+            width: 349px;
+        }
+        .dolor4 p {
+            margin-left: 193px;
+        }
+        .KOSA5 h1::after {
+            width: 373px;
+        }
+        .dolor5 p {
+            margin-left: 209px;
+        }
+        .KOSA6 h1::after {
+            width: 372px;
+        }
+        .dolor6 p {
+            margin-left: 198px;
+        }
+        .ADVANCED h1 {
+            font-size: 40px;
+        }
+        .ADVANCED p {
+            font-size: 25px;
+        }
+        .couts{
+            flex-wrap: wrap;
+            border: none;
+        }
+        .couts2{
+            width: 100%;
+            border-bottom: 1px solid #2c2b2a;
+        }
+        .couts2 h3 {
+            padding: 20px 5px;
+        }
+        .salon h1 {
+            font-size: 50px;
+        }
+        .four{
+            flex-wrap: wrap;
+        }
+        .maininner{
+            flex-wrap: wrap;
+        }
+        .inner2 img {
+            width: 100%;
+        }
+        .about{
+            height: 400px;
+        }
+        .about p {
+            line-height: 36px;
+        }
+
+
+        .header{
+            flex-wrap: wrap;
+      }
+      .header img{
+            order: 1;
+      }
+      .nav{
+            order: 3;
+            width: 100%;
+            padding: 20px 0px;
+      }
+      .button{
+            order: 2;
+      }
+      .li li a {
+            padding: 0px 40px;
+        }
+      .time{
+            flex-wrap: wrap;
+            text-align: center;
+            margin-left: 48px;
+      }
+      .OPENING::after {
+            height: 0%;
+        }
+
+        .hour{
+            margin-top: 60px;
+        }
+        .cont {
+            margin-left: 57px;
+        }
+        .footer{
+            flex-wrap: wrap;
+        }
+       
+      
+}
+
+@media (max-width: 425px){
+      .li li a {
+            padding: 0px 22px;
+        }
+        .center h1 {
+            font-size: 65px;
+        }
+        .clint{
+            flex-wrap: wrap;
+        }
+        .clint img{
+            width: 49%;
+        }
+        .about p {
+            line-height: 25px;
+        }
+        .OPENING p {
+            letter-spacing: 0px;
+            padding: 0px 0px;
+        }
+        .OPENING h1 {
+            font-size: 32px;
+            letter-spacing: 0px;
+        }
+        .hour h3 {
+            letter-spacing: 0px;
+        }
+        .KOSA2 h1::after {
+            width: 0px;
+        }
+        .dolor2 p {
+            margin-left: 8px;
+        }
+        .KOSA h1::after {
+            width: 0px;
+        }
+        .dolor p {
+            margin-left: 0px;
+        }
+        .KOSA3 h1::after {
+            width: 0px;
+        }
+        .dolor3 p {
+            margin-left: 80px;
+        }
+        .KOSA6 h1::after {
+            width: 0px;
+        }
+        .dolor6 p {
+            margin-left: 34px;
+        }
+        .KOSA4 h1::after {
+            width: 0px;
+        }
+        .dolor4 p {
+            margin-left: 34px;
+        }
+        .KOSA5 h1::after {
+            width: 0px;
+        }
+        .dolor5 p {
+            margin-left: 49px;
+        }
+        .cont {
+            margin-left: 10px;
+        }
+        .fb{
+            margin: 10px 7px;
+        }
+        .antim {
+            padding-left: 66px;
+        }
+}
+
+@media (max-width: 375px){
+      .li li a {
+            padding: 0px 15px;
+        }
+        .about p {
+            line-height: 20px;
+        }
+        .OPENING a {
+            padding: 10px 13px;
+        }
+        .OPENING h1 {
+            font-size: 24px;
+        }
+        .OPENING{
+            margin-left: 20px;
+        }
+        .salon h1 {
+            font-size: 35px;
+        }
+        .lastname {
+            padding-left: 20px;
+        }
+        .antim {
+            padding-left: 60px;
+        }
+}
+@media (max-width: 320px){
+      .li li a {
+            padding: 0px 10px;
+        }
+        .about h1 {
+            font-size: 22px;
+        }
+        .about h1 {
+            letter-spacing: 0px;
+        }
+      .mainabout{
+            height: 500px;
+      }
+      .OPENING {
+            margin-right: -1px;
+        }
+      .firstname{
+            flex-wrap: wrap;
+      }
+      .cont {
+            margin-left: 75px;
+        }
+        .start{
+            flex-wrap: wrap;
+        }
+        .footerp{
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .start{
+            text-align: center;
+        }
+        .antim {
+            padding-left: 20px;
+        }
+        .ourstory{
+            flex-wrap: wrap;
+            margin-left: 95px;
+        }
+        .bg {
+            height: 330px;
+        }
+        .hour{
+            padding-right:20px;
+        }
+        .time{
+            width: 74%;
+            padding: 46px 0px;
+        }
+        .bac{
+            margin: 40px 0px;
+        }
+        .bac3{
+            margin: 40px 0px;
+        }
+        .li li{
+            width:100%;
+            padding: 15px 1px;
+        }
+        .li li a{
+            color: #fff;
+        }
+        ul{
+            flex-wrap:wrap;
+            background-color: #000;
+            width: 100%;
+
+        }
+        ul:hover{
+            margin-left: 0px;
+        }
+        
+
+
+        .btn{
+            display:block;
+      }
+      .header img {
+            width: 40%;
+        }
+
+
+        .KOSA h1{
+            font-size: 15px;
+        }
+        .KOSA p{
+            font-size: 10px;
+        }
+        .KOSA {
+            line-height: 25px;
+        }
+
+        .KOSA2 h1{
+            font-size: 15px;
+        }
+        .KOSA2 p{
+            font-size: 10px;
+        }
+        .KOSA2 {
+            line-height: 25px;
+        }
+
+        .KOSA3 h1{
+            font-size: 15px;
+        }
+        .KOSA3 p{
+            font-size: 10px;
+        }
+        .KOSA3 {
+            line-height: 25px;
+        }
+
+        .KOSA4 h1{
+            font-size: 15px;
+        }
+        .KOSA4 p{
+            font-size: 10px;
+        }
+        .KOSA4 {
+            line-height: 25px;
+        }
+
+        .KOSA5 h1{
+            font-size: 15px;
+        }
+        .KOSA5 p{
+            font-size: 10px;
+        }
+        .KOSA5 {
+            line-height: 25px;
+        }
+
+        .KOSA6 h1{
+            font-size: 15px;
+        }
+        .KOSA6 p{
+            font-size: 10px;
+        }
+        .KOSA6 {
+            line-height: 25px;
+        }
+
+        .salon2 h1{
+            font-size: 20px;
+        }
+        .salon2 p {
+            line-height: 20px;
+        }
+
+        .inner {
+            object-fit: cover;
+            height: 505px;
+        }
+        .loveto h1 {
+            padding-top: 177px;
+            font-size: 42px;
+        }
+
+        .logofooter img{
+            margin-left: 55px;
+            margin-bottom: 40px;
+        }
+        .footer {
+            padding: 44px 0px;
+        }
+
+
+
+}
+
+
+
+
+.bgabout{
+      background-image: url(../images/hero_about.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 650px;
+      background-attachment: fixed;
+}
+
+
+.centerabout{
+      padding: 180px 0px;
+}
+.centerabout h1{
+      font-size: 75px;
+      color: #d4a977;;
+      
+}
+.centerabout h3{
+      color: #b1aba6;
+      padding: 25px 0px;
+}
+.centerabout p{
+      color: #fff;
+      line-height: 30px;
+}
+
+.fouri{
+      background-color: #000;
+      height: 250px;
+}
+
+.holder{
+      color: #fff;
+      padding: 75px 0px;
+      
+}
+.holder h1{
+      font-size: 50px;
+}
+.holder h4{
+      font-size: 20px;
+}
+.holder i{
+      font-size: 70px;
+      color: #d4a977;
+      padding-right: 15px;
+}
+
+.CHEVEUX{
+      width: 65%;
+}
+.CHEVEUX2 img{
+      width: 100%;
+      height: 711px;
+}
+
+.CHEVEUX h1{
+      font-size: 50px;
+      letter-spacing: 2px;
+      padding: 20px 0px;
+}
+.CHEVEUX p{
+      padding-bottom: 20px;
+      margin: 0px 110px;
+      line-height: 30px;
+}
+.CHEVEUX a{
+      color: #fff;
+      border: 1px solid #000;
+      background-color: #000;
+      padding: 10px 25px;
+}
+
+.twitter{
+margin-left: 280px;
+margin-bottom: 30px;
+}
+.twitter i{
+      padding: 0px 20px;
+      color: #d4a977;
+      transition: 0.5s;
+}
+.twitter i:hover{
+      color: #000;
+}
+
+
+.blackabout{
+      background-color: #000;
+      height: 1000px;
+      color: #fff;
+      padding: 150px 0px;
+      margin-top: -5px;
+}
+
+.blackaboutmain h3{
+      color: #fff;
+      padding-bottom: 20px;
+}
+
+.blackaboutmain h1{
+      font-size: 50px;
+      padding-bottom: 50px;
+}
+
+.about_image_01_new img{
+      width: 70%;
+}
+.about_image_01_new h1{
+      padding: 20px 0px;
+}
+.about_image_01_new p{
+      padding-bottom: 20px;
+}
+.about_image_01_new i{
+      padding: 0px 10px;
+}
+.about_image_01_new i:hover{
+      color: #d4a977;
+}
+.about_image_02_new img{
+      width: 100%;
+}
+.about_image_02_new h1{
+      padding: 20px 0px;
+}
+.about_image_02_new p{
+      padding-bottom: 20px;
+}
+.about_image_02_new i{
+      padding: 0px 10px;
+}
+.about_image_02_new i:hover{
+      color: #d4a977;
+}
+
+.about_image_03_new img{
+      width: 70%;
+}
+.about_image_03_new h1{
+      padding: 20px 0px;
+}
+.about_image_03_new p{
+      padding-bottom: 20px;
+}
+.about_image_03_new i{
+      padding: 0px 10px;
+}
+.about_image_03_new i:hover{
+      color: #d4a977;
+}
+
+.bacap{
+      background-image: url(../images/card_image_03.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 500px;
+      background-attachment: fixed;
+}
+
+
+.yourwellcome{
+      color: #fff;
+      padding-left: 70px;
+      padding-top: 160px;
+}
+.yourwellcome h1{
+      color: #d4a977;
+}
+
+
+.backgroundimglast{
+      background-image: url(../images/background_about_02.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 600px;
+      background-attachment: fixed;
+      transition: 0.5s;
+}
+
+.Applytoday{
+      margin-left: 55%;
+      text-align: center;
+      padding-top: 230px;
+}
+.Applytoday h3{
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+.Applytoday h1{
+      font-size: 60px;
+      padding: 20px 0px;
+}
+.Applytoday p{
+      line-height: 30px;
+}
+.Applytoday a{
+      border: 1px solid #000;
+      padding: 10px 30px;
+      background-color: #000;
+      color: #fff;
+}
+.Apply{
+      margin-top: 30px;
+}
+
+
+
+@media (max-width: 1024px){
+      .container{
+            width: 90%;
+      }
+      .CHEVEUX p {
+            margin: 0px 20px;
+        }
+        .CHEVEUX h1 {
+            font-size: 35px;
+        }
+        .twitter {
+            margin-left: 157px;
+        }
+        .Applytoday {
+            padding-top: 141px;
+        }
+        .holder h1 {
+            font-size: 30px;
+        }
+        .holder i {
+            font-size: 45px;
+      }
+      .holder h4 {
+            font-size: 13px;
+        }
+        .CHEVEUX {
+            width: 100%;
+        }
+        
+
+}
+
+
+@media (max-width: 768px){
+      .threeimg{
+            flex-wrap: wrap;
+            margin-left: 30px;
+        }
+        .blackabout{
+            height: 3500px;
+        }
+        .about_image_01_new img{
+            width: 100%;
+        }
+        .about_image_03_new img {
+            width: 100%;
+        }
+        .about_image_02_new{
+            padding: 100px 0px;
+        }
+
+        .OPENING a {
+            padding: 10px 10px;
+      }
+      .backgroundimglast{
+            height: 450px;
+      }
+      .Applytoday {
+            padding-top: 58px;
+        }
+}
+
+@media (max-width: 600px){
+      .hour h3 {
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .hour{
+            text-align: center;
+            margin-left: 60px;
+        }
+        .yourwellcome{
+            flex-wrap: wrap;
+            padding-top: 37px;
+        }
+        .Applytoday h1 {
+            font-size: 49px;
+      }
+      .blackabout {
+            height: 2900px;
+        }
+        .director{
+            flex-wrap: wrap;
+        }
+        .twitter {
+            margin-left: 245px;
+        }
+        .anAppointment{
+            margin-bottom: 50px;
+        }
+
+
+        .li li{
+            width:100%;
+            padding: 15px 1px;
+        }
+        .btn{
+            display: block;
+        }
+        .li li a{
+            color: #fff;
+        }
+        ul{
+            flex-wrap:wrap;
+            background-color: #000;
+            width: 100%;
+
+        }
+        ul:hover{
+            margin-left: 0px;
+        }
+}
+
+
+@media (max-width: 425px){
+      .holder i {
+            font-size: 25px;
+        }
+        .holder h1 {
+            font-size: 20px;
+        }
+        .holder h4 {
+            font-size: 10px;
+        }
+        .fouri {
+            height: 100px;
+        }
+        .holder {
+            padding: 25px 0px;
+        }
+        .twitter {
+            margin-left: 159px;
+        }
+        .blackaboutmain h1 {
+            font-size: 25px;
+        }
+        .threeimg {
+            margin-left: 0px;
+        }
+        .blackabout {
+            height: 2400px;
+        }
+        .hour {
+            margin-left: 0px;
+        }
+        .Applytoday h3 {
+            letter-spacing: 0px;
+        }
+        .Applytoday h1 {
+            font-size: 38px;
+        }
+        .Applytoday p {
+            line-height: 20px;
+        }
+}
+
+@media (max-width: 375px){
+      .circle{
+            flex-wrap: wrap;
+      }
+      .holder{
+            width: 50%;
+      }
+      .fouri {
+            height: 175px;
+        }
+        .twitter {
+            margin-left: 122px;
+        }
+
+        .GETAQUETO{
+            flex-wrap: wrap;
+        }
+        .GETAQUETO2{
+            margin: 20px 0px;
+        }
+        .centerabout h1 {
+            font-size: 45px;
+        }
+        .blackabout {
+            height: 2000px;
+        }
+
+        .Applytoday {
+            margin-left: 0%;
+        }
+}
+
+
+
+.contectbg{
+      background-image: url(../images/hero_contact.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 950px;
+}
+
+
+.btContactRow{
+      color: #fff;
+      margin-left: 0px;
+      padding: 20px 0px;
+}
+.btContactColumn{
+      margin: 0px 0px;
+}
+
+.btContactColumn input{
+      padding: 20px 340px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      background-color: transparent;
+      padding-left: 0px;
+}
+
+
+.btContactColumn2{
+      margin: 0px 0px;
+}
+
+.btContactColumn2 input{
+      padding: 20px 974px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      background-color: transparent;
+      padding-left: 0px;
+}
+
+.btContactColumn3{
+      margin: 0px 0px;
+      padding-left: 30px;
+}
+
+.btContactColumn3 input{
+      padding: 20px 432px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      background-color: transparent;
+      padding-left: 0px;
+}
+
+
+.sendbutton a{
+      border: 1px solid #b1aba6;
+      color: #fff;
+      padding: 10px 25px;
+}
+.sendbutton{
+     padding: 20px 0px;
+}
+
+
+.contectus h1{
+      color: #d4a977;
+      letter-spacing: 5px;
+      font-size: 80px;
+}
+.contectus h3{
+      color: #b1aba6;
+      padding: 30px 0px;
+      letter-spacing: 3px;
+      font-size: 30px;
+}
+
+.contectsalon{
+      padding: 90px 0px;
+}
+
+
+.blackcontect{
+      background-color: #000;
+}
+
+.infokosa{
+      color: #fff;
+      padding: 50px 0px;
+}
+.com{
+      width: 100%;
+}
+.com a{
+      color: #797775;
+      letter-spacing: 4px;
+      font-size: 30px;
+}
+.com h1{
+      font-size: 50px;
+      letter-spacing: 3px;
+      color: #d4a977;
+}
+.com2{
+      width: 100%;
+}
+
+.com2 p{
+      line-height: 30px;
+}
+
+.black-bg-contect{
+      background-color: #000;
+}
+
+.LOCATIONcontect{
+      color: #fff;
+}
+
+.locone h1{
+      color: #d4a977;
+      font-size: 40px;
+      padding-bottom: 10px;
+}
+
+.locone a{
+      color: #fff;
+      font-size: 30px;
+}
+
+.locone p{
+      padding-top: 10px;
+}
+
+
+.loctwo h1{
+      color: #d4a977;
+      font-size: 40px;
+      padding-bottom: 10px;
+}
+
+.loctwo a{
+      color: #fff;
+      font-size: 30px;
+}
+
+.loctwo p{
+      padding-top: 10px;
+}
+
+.loctwo{
+      padding: 40px 0px;
+}
+
+iframe{
+      padding-left: 240px;
+}
+
+
+.lastbgcontect{
+      background-image: url(../images/background_contact.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 700px;
+      background-attachment: fixed;
+}
+
+.GIFTVOUCHER{
+      background-color: #000;
+      width: 50%;
+      margin-left: 520px;
+      opacity: 50%;
+}
+
+.occasions{
+      color: #fff;
+      opacity: 100%;
+      padding: 100px 0px;
+}
+
+.occasions h3{
+      font-size: 25px;
+}
+.occasions h1{
+      font-size: 60px;
+      padding: 30px 0px;
+}
+.occasions p{
+      padding: 0px 120px;
+      line-height: 30px;
+      padding-bottom: 20px;
+}
+
+.occasions a{
+      color: #fff;
+}
+
+.uparseniche{
+      padding-top: 120px;
+}
+
+.lastbgcontect{
+      margin: 50px 0px;
+}
+
+
+
+
+
+@media (max-width: 1024px){
+      .container{
+            width: 90%;
+      }
+      .btContactColumn3 input {
+            padding: 20px 120px;
+      }
+      .btContactColumn input {
+            padding: 20px 120px;
+        }
+        .btContactColumn2 input {
+            padding: 20px 340px;
+      }
+      .realmap p{
+            width: 70%;
+      }
+      .GIFTVOUCHER {
+            margin-left: 400px;
+        }
+        
+}
+
+
+@media (max-width: 768px){
+      .btContactColumn input {
+            padding: 20px 50px;
+        }
+        .btContactColumn3 input {
+            padding: 20px 50px;
+        }
+        .btContactColumn2 input {
+            padding: 20px 204px;
+        }
+        .com h1 {
+            font-size: 40px;
+        }
+        .com2 p {
+            line-height: 25px;
+        }
+        .locone h1 {
+            font-size: 31px;
+        }
+        .loctwo h1 {
+            font-size: 30px;
+        }
+        .realmap p {
+            width: 62%;
+        }
+        .GIFTVOUCHER {
+            margin-left: 170px;
+        }
+        .occasions h1 {
+            font-size: 43px;
+        }
+        .occasions p {
+            padding: 0px 60px;
+            padding-bottom: 20px;
+        }
+}
+
+@media (max-width: 600px){
+      .btContactRow{
+            flex-wrap: wrap;
+      }
+      .btContactColumn input {
+            padding: 20px 180px;
+        }
+        .btContactColumn3 input {
+            padding: 20px 180px;
+        }
+        .btContactColumn3 {
+            margin: 10px 0px;
+            padding-left: 0px;
+        }
+        .btContactColumn2 input {
+            padding: 20px 180px;
+        }
+        .com h1 {
+            font-size: 30px;
+        }
+        .com a {
+            letter-spacing: 0px;
+            font-size: 25px;
+        }
+        .com2 p {
+            line-height: 20px;
+        }
+        .LOCATIONcontect{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .locone{
+            text-align: center;
+        }
+        .loctwo{
+            text-align: center;
+        }
+        
+        iframe {
+            padding-left: 0px;
+        }
+        .occasions p {
+            padding: 0px 0px;
+            padding-bottom: 20px;
+        }
+        .occasions h1 {
+            font-size: 30px;
+        }
+        
+}
+
+@media (max-width: 425px){
+      .contectus h1 {
+            font-size: 45px;
+        }
+        .btContactColumn input {
+            padding: 20px 91px;
+        }
+        .btContactColumn2 input {
+            padding: 20px 91px;
+        }
+        .btContactColumn3 input {
+            padding: 20px 91px;
+        }
+        .GIFTVOUCHER {
+            margin-left: 50px;
+        }
+        .occasions {
+            padding: 25px 0px;
+        }
+        .GIFTVOUCHER {
+            width: 80%;
+      }
+      .lastbgcontect{
+            height: 500px;
+      }
+}
+
+@media (max-width: 375px){
+      .infokosa{
+            flex-wrap: wrap;
+      }
+      .com{
+            padding: 20px 0px;
+      }
+      .btContactColumn input {
+            padding: 20px 45px;
+        }
+        .btContactColumn2 input {
+            padding: 20px 45px;
+        }
+        .btContactColumn3 input {
+            padding: 20px 45px;
+        }
+        .realmap p {
+            width: 55%;
+      }
+      .uparseniche {
+            padding-top: 70px;
+        }
+        .GIFTVOUCHER {
+            margin-left: 0px;
+        }
+        .GIFTVOUCHER {
+            width: 100%;
+        }
+}
+
+
